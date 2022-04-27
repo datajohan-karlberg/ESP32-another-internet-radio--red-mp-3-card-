@@ -14,8 +14,8 @@ RingBuf<byte, 30000> myBuffer;
 LiquidCrystal_I2C lcd(0x27, 20, 2);
 
 
-char* ssid     = "Gusaf_von_Knorrings_Paradvaning";
-const char* password = "1891189119";
+char* ssid     = "zzzzz";
+const char* password = "zzzzzzz";
 
 
 
