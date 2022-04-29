@@ -1,5 +1,9 @@
 # ESP32-another-internet-radio--red-mp-3-card-
 how to use red mp3-card (alibaba) VS1053  
+The special with this code is it use a ringbuffer for the stream.
+#include <RingBuf.h>
+and that make the stream more stable.
+To change channel, push the Flash button on the ESP32. That button is IO-0 on this ESP32 board.  
 
 This is the red MP3-card i use
 ![Pict 2022-04-27 08-42-03 010](https://user-images.githubusercontent.com/33222123/165581310-8d255f2a-8d0a-4a47-96a3-69571307cc79.png)
